@@ -1,74 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Seavei - Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="about.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
+
 <body>
-    <div class="container">
-        <!-- Background Pattern -->
-        <div class="bg-pattern"></div>
-        
-        <!-- Header -->
-        <header class="header">
-            <div class="logo">
-                <h2>My Portfolio</h2>
+    <header class="header">
+        <nav class="navbar">
+            <a href="#" class="logo">Portfolio</a>
+            <ul>
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Education</a></li>
+                <li><a href="#">Project</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="home-content">
+            <h1>Hello,It's Me <span>Seavei</span></h1>
+            <h2 class="typing-text">I'm a <span></span></h2>
+            <p>Please hold your breath as we dive into a world full of creativity with my limitless ideas.</p>
+            <div class="icons">
+                <a href="#" class="icons"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" class="icons"><i class="fa-brands fa-telegram"></i></a>
+                <a href="#" class="icons"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="icons"><i class="fa-brands fa-github"></i></a>
             </div>
-            <nav class="nav">
-                <ul>
-                    <li><a href="index.html" class="nav-link active">Home</a></li>
-                    <li><a href="about.html" class="nav-link">About</a></li>
-                    <li><a href="#" class="nav-link">Project</a></li>
-                    <li><a href="#" class="nav-link">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
-
-        <!-- Main Content -->
-        <main class="main-content">
-            <div class="content-left">
-                <p class="greeting">Hello, It's Me</p>
-                <h1 class="name">Seavei</h1>
-                <p class="role">I'm a <span class="highlight">Web Developer</span></p>
-                <p class="description">
-                    Please hold your breath as we dive into a world full of creativity with Nana
-                </p>
-                <div class="social-links">
-                    <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" class="social-link"><i class="fab fa-telegram-plane"></i></a>
-                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
-                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+        </div>
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="pickilozin.jpg" alt="">
                 </div>
             </div>
-            <div class="content-right">
-                <div class="profile-image">
-                    <img src="pickilozin.jpg" alt="Seavei Profile" />
-                </div>
-            </div>
-        </main>
+        </div>
 
-         <main class="main-content about-section">
-            <div class="about-image">
-                <div class="profile-image-circle">
-                    <img src="pickilozin.jpg" alt="Seavei Profile" />
-                </div>
-            </div>
-
-            <div class="about-content">
-                <h1 class="about-title">About Me</h1>
-                <p class="about-text">
-                    My name is Seav E. I am a first-year student at the Royal University of Phnom Penh (RUPP), majoring
-                    in Information Technology Engineering (ITE).
-                    <br>
-                    My future goal is to become a Full-Stack Developer. Currently, I am progressing in web development
-                    and actively building my skills through practice and real-world projects.
-                </p>
-            </div>
-        </main>
-    </div>
+    </section>
 </body>
+
 </html>
