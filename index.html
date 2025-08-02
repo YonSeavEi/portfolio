@@ -14,15 +14,15 @@
         <nav class="navbar">
             <a href="#" class="logo">Portfolio</a>
             <ul>
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Education</a></li>
-                <li><a href="#">Project</a></li>
-                <li><a href="#">Contact</a></li>
+                <li class="active"><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <section class="home">
+    <section class="home" id="home">
         <div class="home-content">
             <h1>Hello,It's Me <span>Seavei</span></h1>
             <h2 class="typing-text">I'm a <span></span></h2>
@@ -41,7 +41,56 @@
                 </div>
             </div>
         </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="pickilozin.jpg" alt="About img">
+        </div>
+        <div class="about-content">
+            <h3 class="heading">About<span> Me </span></h3>
+            <p> My name is Seav E. I am a first-year student at the Royal University of Phnom Penh (RUPP), majoring in
+                Information Technology Engineering (ITE).My future goal is to become a Full-Stack Developer. Currently,
+                I am progressing in web development and actively building my skills through practice and real-world
+                projects.</p>
+        </div>
+    </section>
+    <section class="education" id="education">
+        <div class="education-content">
+            <h4>Education & Experience</h4>
+        </div>
+        <div class="line">
+            <div class="content red">
+                <h5>2024 - 2025</h5>
+                <p>I am a first-year student at the Royal University of Phnom Penh (RUPP), majoring in
+                    Information Technology Engineering (ITE)</p>
+            </div>
+            <div class="content green">
+                <h5>2024 - 2025</h5>
+                <p>I am a first-year student at the Royal University of Phnom Penh (RUPP), majoring in Information
+                    Technology Engineering (ITE)</p>
+            </div>
 
+        </div>
+    </section>
+    <section class="Project" id="project">
+        <div class="project-content">
+            <h7>None</h7>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h3 class="heading">Contact<span> Me </span></h3>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="emil" name="Email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Phone number">
+                <input type="text" placeholder="Subject">
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input class="btn" type="submit" value="Send Message">
+            </div>
+        </form>
     </section>
 </body>
 
